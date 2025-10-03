@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from 'react';
+// import { BrowserRouter } from 'react-router-dom';
+// import AppRoutes from './routes/AppRoutes';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <div className="App">
+//         <AppRoutes />
+//       </div>
+//     </BrowserRouter>
+//   );
+// }
+
+// export default App;
+// 
+// import React from 'react';
+// import AppRoutes from './routes/AppRoutes'; // ✅ use your full route config
+// import { BrowserRouter } from 'react-router-dom';
+
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <AppRoutes />
+//     </BrowserRouter>
+//   );
+// };
+
+// // export default App;
+// import React from 'react';
+// import AppRoutes from './routes/AppRoutes'; // ✅ tumhari routing yahan se control hogi
+// import PrivateRoute  from './admin/routes/PrivateRoute';  
+
+// const App = () => {
+//   return (
+//     <div className="App">
+//       <AppRoutes />
+//       <PrivateRoute />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import React from 'react';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
