@@ -329,7 +329,7 @@ const RegisterForm = () => {
     return () => {
       isMounted = false;
     };
-  }, [eventId]);
+  }, [eventId, event]);
 
   const validateForm = () => {
     const errors = {};
