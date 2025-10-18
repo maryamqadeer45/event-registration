@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.21618355.css",
-    "main.js": "/static/js/main.d680a08a.js",
-    "static/media/resturant opening.jpg": "/static/media/resturant opening.37915a612252694c961f.jpg",
-    "static/media/eid festival.webp": "/static/media/eid festival.4270f83b5988f4c60feb.webp",
-    "static/media/gaming expo.jpg": "/static/media/gaming expo.5d2b2df3b51ea0cb0082.jpg",
-    "static/media/flowers expo.jpg": "/static/media/flowers expo.de1dd635f95638ba32ac.jpg",
-    "static/media/fun and feast.jpg": "/static/media/fun and feast.c5a1488f58ffbccf7e1b.jpg",
-    "static/media/training of skills.jpg": "/static/media/training of skills.951ef585dfb4f3b77b36.jpg",
-    "index.html": "/index.html",
-    "main.21618355.css.map": "/static/css/main.21618355.css.map",
-    "main.d680a08a.js.map": "/static/js/main.d680a08a.js.map"
+    "main.css": "/event-registration/static/css/main.21618355.css",
+    "main.js": "/event-registration/static/js/main.fb9e0045.js",
+    "static/media/resturant opening.jpg": "/event-registration/static/media/resturant opening.37915a612252694c961f.jpg",
+    "static/media/eid festival.webp": "/event-registration/static/media/eid festival.4270f83b5988f4c60feb.webp",
+    "static/media/gaming expo.jpg": "/event-registration/static/media/gaming expo.5d2b2df3b51ea0cb0082.jpg",
+    "static/media/flowers expo.jpg": "/event-registration/static/media/flowers expo.de1dd635f95638ba32ac.jpg",
+    "static/media/fun and feast.jpg": "/event-registration/static/media/fun and feast.c5a1488f58ffbccf7e1b.jpg",
+    "static/media/training of skills.jpg": "/event-registration/static/media/training of skills.951ef585dfb4f3b77b36.jpg",
+    "index.html": "/event-registration/index.html",
+    "main.21618355.css.map": "/event-registration/static/css/main.21618355.css.map",
+    "main.fb9e0045.js.map": "/event-registration/static/js/main.fb9e0045.js.map"
   },
   "entrypoints": [
     "static/css/main.21618355.css",
-    "static/js/main.d680a08a.js"
+    "static/js/main.fb9e0045.js"
   ]
 }
