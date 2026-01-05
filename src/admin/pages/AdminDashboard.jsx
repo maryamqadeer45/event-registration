@@ -116,14 +116,25 @@ const AdminDashboard = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <AdminHeader />
-      <div className="px-4 py-2">
-  <button
-    onClick={() => navigate('/')}
-    className="text-blue-600 hover:text-blue-800 font-semibold text-sm"
-  >
-    🏠 Go to Home
-  </button>
-</div>
+      
+      {/* Back to Home Button */}
+      <div className="container mx-auto px-4 py-4">
+        <button
+          onClick={() => navigate('/')}
+          className="flex items-center gap-2 px-4 py-2 bg-white hover:bg-gray-50 text-gray-700 font-medium rounded-lg shadow-sm border border-gray-200 transition-all duration-200 hover:shadow-md"
+        >
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            className="h-5 w-5" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          <span>Back to Home</span>
+        </button>
+      </div>
       
       <div className="container mx-auto px-4 py-8">
         {/* Navigation Tabs */}
